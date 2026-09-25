@@ -9,6 +9,7 @@ body {
     padding: 20px;
     border-radius: 8px;
     text-decoration: none;
+    color: inherit;
 }
 
 .card h3 {
@@ -19,6 +20,8 @@ body {
     color: #94a3b8;
 }
 
-.card {
-    color: inherit;
+.card-grid { 
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 16px;
 }
