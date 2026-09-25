@@ -10,6 +10,9 @@ body {
     border-radius: 8px;
     text-decoration: none;
     color: inherit;
+    display: flex;
+    position: relative;
+    flex-direction: column;
 }
 
 .card h3 {
